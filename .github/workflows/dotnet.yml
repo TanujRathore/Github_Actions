@@ -22,6 +22,7 @@ jobs:
         dotnet-version: 8.0.x
     - name: Install dependencies
       run: dotnet restore
+      working-directory: C:\Users\Tanuj Rathore\source\repos\DropDownMenuExample
     - name: Build
       run: dotnet build --no-restore
     - name: Test with dotnet
